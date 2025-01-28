@@ -1,0 +1,22 @@
+ox_inventory/data/items.lua:
+['phonechanger'] = {
+    label = 'Phone Number Changer',
+    weight = 200,
+    stack = false,
+    close = true,
+    description = 'Change your current phone number'
+}
+
+qb-core/shared/items.lua:
+['phonechanger'] = {
+    name = 'phonechanger',
+    label = 'Phone Number Changer',
+    weight = 200,
+    type = 'item',
+    image = 'phonechanger.png',
+    unique = true,
+    useable = true,
+    shouldClose = true,
+    combinable = nil,
+    description = 'Change your current phone number'
+}
